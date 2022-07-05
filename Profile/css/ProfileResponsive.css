@@ -1,0 +1,1727 @@
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/*レスポンシブデザイン*/
+/*400px以下の対応*/
+@media screen and (max-width: 400px) {
+    /*pの指定*/
+    body p{
+        font-size: 7px;
+    }
+    /*h2の指定*/
+    body h2{
+        font-size: 25px;
+    }
+    /*h3の指定*/
+    body h3{
+        font-size: 10px;
+    }
+
+    */プロフィール*/
+    .PROFILE{
+        width: 80%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    /*スマホの画面では表示しない*/
+    .PLCh3AN{
+        display: none;
+    }
+    #AboutMe{
+        margin-top: 5%;
+    }
+    /*スマホサイズは並び替えしない*/
+    .ProfileLeftContent{
+        width: 70%;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 5%;
+    }
+    .ProfileLeft .ProfileLeftContent h3{
+        font-size: 8px;
+        line-height: 13px;
+        margin-top: 10%;
+        margin-bottom: 3%;
+    }
+    .ProfileLeftContent p{
+        line-height: 20px;
+    }
+    .MyImg{
+        width: 30px;
+        height: auto;
+        object-fit: contain;
+        background-size: cover;
+        margin-right: 3%;
+        vertical-align: middle;
+    }
+    .ProfileRight{
+        margin-top: 15%;
+    }
+    .ProfileRight h3{
+        font-size: 15px;
+        margin-bottom: 3%;
+        color: #444444;
+        text-align: center;
+    }
+    .ProfileRightContent h3{
+        font-size: 9px;
+        margin-bottom: 5%;
+        text-align: left;
+        color: black;
+    }
+    .ProfileRightContent p{
+        line-height: 12px;
+    }
+    .ProfileRightWrapperContent{
+        display: flex;
+        align-items: flex-start;
+        margin-top: 10%;
+    }
+    .ProfileRightWrapper{
+        width: 80%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    /*保有資格*/
+    .HoyuuSikaku h3{
+        text-align: center;
+        margin-top: 10%;
+        margin-bottom: 5%;
+        color: #444444;
+    }
+    .HoyuuSikakuFlex{
+        display: flex;
+        
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .HoyuuSikakuContent{
+        margin-left: 1%;
+    }
+    .HoyuuSikakuContent p{
+        line-height: 20px;
+    }
+    /*Javaアイコン*/
+    .JavaImg{
+        width: 30px;
+        height: auto;
+        object-fit: contain;
+        background-size: cover;
+    }
+}
+
+/*401px以上500px以下*/
+@media screen and (min-width: 401px) and (max-width: 500px) {
+    /*pの指定*/
+    body p{
+        font-size: 10px;
+        line-height: 14px;
+    }
+    /*h2の指定*/
+    body h2{
+        font-size: 30px;
+    }
+
+    */プロフィール*/
+    .PROFILE{
+        width: 80%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    /*スマホの画面では表示しない*/
+    .PLCh3AN{
+        display: none;
+    }
+    #AboutMe{
+        margin-top: 5%;
+    }
+    /*スマホサイズは並び替えしない*/
+    .ProfileLeftContent{
+        width: 70%;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 5%;
+    }
+    .ProfileLeft .ProfileLeftContent h3{
+        font-size: 12px;
+        line-height: 14px;
+        margin-top: 10%;
+        margin-bottom: 3%;
+    }
+    .ProfileLeftContent p{
+        line-height: 20px;
+    }
+    .MyImg{
+        width: 50px;
+        height: auto;
+        object-fit: contain;
+        background-size: cover;
+        margin-right: 3%;
+    }
+    .ProfileRight{
+        margin-top: 15%;
+    }
+    .ProfileRight h3{
+        font-size: 25px;
+        margin-bottom: 3%;
+        color: #444444;
+        text-align: center;
+    }
+    .ProfileRightContent h3{
+        font-size: 9px;
+        margin-bottom: 5%;
+        text-align: left;
+        color: black;
+    }
+    .ProfileRightContent p{
+        line-height: 12px;
+    }
+    .ProfileRightWrapperContent{
+        display: flex;
+        align-items: flex-start;
+        margin-top: 10%;
+    }
+    .ProfileRightWrapper{
+        width: 80%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    /*保有資格*/
+    .HoyuuSikaku h3{
+        text-align: center;
+        margin-top: 10%;
+        margin-bottom: 5%;
+        color: #444444;
+    }
+    .HoyuuSikakuFlex{
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .HoyuuSikakuContent{
+        margin-left: 1%;
+    }
+    .HoyuuSikakuContent p{
+        line-height: 24px;
+    }
+    /*Javaアイコン*/
+    .JavaImg{
+        width: 40px;
+        height: auto;
+        object-fit: contain;
+        background-size: cover;
+    }
+
+}
+
+/*501px以上781以下*/
+@media screen and (min-width: 501px) and (max-width: 781px) {
+    /*pの指定*/
+    body p{
+        font-size: 10px;
+        line-height: 14px;
+    }
+    /*h2の指定*/
+    body h2{
+        font-size: 30px;
+    }
+    body h3{
+        font-size: 18px !important;
+    }
+    */プロフィール*/
+    .PROFILE{
+        width: 80%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    /*スマホの画面では表示しない*/
+    .PLCh3AN{
+        display: none;
+    }
+    #AboutMe{
+        margin-top: 5%;
+    }
+    /*スマホサイズは並び替えしない*/
+    .ProfileLeftContent{
+        width: 70%;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 5%;
+    }
+    .ProfileLeft .ProfileLeftContent h3{
+        font-size: 18px;
+        line-height: 20px;
+        margin-top: 10%;
+        margin-bottom: 3%;
+    }
+    .ProfileLeftContent p{
+        font-size: 13px;
+        line-height: 23px;
+    }
+    .MyImg{
+        width: 70px;
+        height: auto;
+        object-fit: contain;
+        background-size: cover;
+        margin-right: 3%;
+    }
+    .ProfileRight{
+        margin-top: 10%;
+    }
+    .ProfileRight h3{
+        font-size: 25px !important;
+        margin-bottom: 3%;
+        color: #444444;
+        text-align: center;
+    }
+    .ProfileRightContent h3{
+        font-size: 18px;
+        margin-bottom: 5%;
+        text-align: left;
+        color: black;
+    }
+    .ProfileRightContent p{
+        font-size: 13px;
+        line-height: 17px;
+    }
+    .ProfileRightWrapperContent{
+        display: flex;
+        align-items: flex-start;
+        margin-top: 10%;
+    }
+    .ProfileRightWrapper{
+        width: 70%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    /*保有資格*/
+    .HoyuuSikaku h3{
+        text-align: center;
+        margin-top: 10%;
+        margin-bottom: 5%;
+        color: #444444;
+    }
+    .HoyuuSikakuFlex{
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .HoyuuSikakuContent{
+        margin-left: 1%;
+    }
+    .HoyuuSikakuContent p{
+        font-size: 13px;
+        line-height: 27px;
+    }
+    /*Javaアイコン*/
+    .JavaImg{
+        width: 45px;
+        height: auto;
+        object-fit: contain;
+        background-size: cover;
+    }
+    .hobbyWrapper.MyFavoriteContent h3{
+        font-size: 18px;
+        text-align: center;
+        color: #444444;
+        font-weight: 100;
+        margin-top: 10%;
+        margin-bottom: 5%;
+    }
+}
+
+/*782px以上1069px以下*/
+@media screen and (min-width: 782px) and (max-width: 1069px) {
+    /*pの指定*/
+    body p{
+        font-size: 10px;
+        line-height: 18px;
+    }
+    /*h2の指定*/
+    body h2{
+        font-size: 40px;
+    }
+    body h3{
+        font-size: 25px !important;
+    }
+
+    /*プロフィール*/
+    .PROFILE{
+        display: flex;
+        width: 90%;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 10%;
+    }
+    #AboutMe{
+        margin-top: 3%;
+    }
+    .PRH3{
+        display: none;
+    }
+    /*プロフィール左側*/
+    .ProfileLeft{
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        margin-right: 3%;
+    }
+    .ProfileLeft p{
+        text-align: left;
+        line-height: 30px;
+
+    }
+    .ProfileLeftContent{
+        width: 100%;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 5%;
+    }
+    .ProfileLeft h3{
+        font-size: 25px;
+        line-height: 39px;
+        font-family: "Source Sans Pro";
+        font-weight: bold;
+    }
+
+    /*プロフィール右側*/
+    .ProfileRight{
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        margin-left: 3%;
+    }
+    .ProfileRightWrapper{
+        width: 100%;
+    }
+    .ProfileRight h3{
+        font-size: 25px;
+        margin-bottom: 5%;
+        color: #444444;
+    }
+    .ProfileRightWrapperContent{
+        display: flex;
+        align-items: flex-start;
+    }
+    /*プロフィール画像*/
+    .MyImg{
+        width: 90px;
+        height: auto;
+        object-fit: contain;
+        background-size: cover;
+    }
+    .ProfileRightContent{
+        display: inline-block;
+        margin-left: 0px;
+    }
+    .ProfileRightContent h3{
+        margin-bottom: 8%;
+        font-size: 15px;
+        color: black;
+    }
+
+    /*保有資格*/
+    .HoyuuSikaku{
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .HoyuuSikaku h3{
+        font-size: 22px;
+        margin-top: 10%;
+        margin-bottom: 3%;
+        color: #444444;
+    }
+    .HoyuuSikakuFlex{
+        display: flex;
+    }
+    .HoyuuSikakuContent{
+        margin-left: 2%;
+    }
+    .HoyuuSikakuContent p{
+        line-height: 28px;
+    }
+    /*Javaアイコン*/
+    .JavaImg{
+        width: 55px;
+        height: auto;
+        object-fit: contain;
+        background-size: cover;
+    }
+}
+
+
+/*1070px以上の時対応*/
+@media screen and (min-width: 1070px) {
+    /*pの指定*/
+    body p{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    /*h2の指定*/
+    body h2{
+        font-size: 56px;
+    }
+    body h3{
+        font-size: 28px !important;
+    }
+
+    /*プロフィール*/
+    .PROFILE{
+        display: flex;
+        width: 90%;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 10%;
+    }
+    #AboutMe{
+        margin-top: 3%;
+    }
+    .PRH3{
+        display: none;
+    }
+    /*プロフィール左側*/
+    .ProfileLeft{
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        margin-right: 3%;
+    }
+    .ProfileLeft p{
+        text-align: left;
+        line-height: 50px;
+
+    }
+    .ProfileLeftContent{
+        width: 100%;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 5%;
+    }
+    .ProfileLeft h3{
+        font-size: 28px;
+        line-height: 42px;
+        font-family: "Source Sans Pro";
+        font-weight: bold;
+    }
+
+    /*プロフィール右側*/
+    .ProfileRight{
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        margin-left: 3%;
+    }
+    .ProfileRightWrapper{
+        width: 100%;
+    }
+    .ProfileRight h3{
+        font-size: 25px;
+        margin-bottom: 5%;
+        color: #444444;
+    }
+    .ProfileRightWrapperContent{
+        display: flex;
+        align-items: flex-start;
+    }
+    /*プロフィール画像*/
+    .MyImg{
+        width: 100px;
+        height: auto;
+        object-fit: contain;
+        background-size: cover;
+    }
+    .ProfileRightContent{
+        display: inline-block;
+        margin-left: 0px;
+    }
+    .ProfileRightContent h3{
+        margin-bottom: 10%;
+        font-size: 30px !important;
+        color: black;
+    }
+
+    /*保有資格*/
+    .HoyuuSikaku{
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .HoyuuSikaku h3{
+        font-size: 25px !important;
+        margin-top: 10%;
+        margin-bottom: 5%;
+        color: #444444;
+    }
+    .HoyuuSikakuFlex{
+        display: flex;
+    }
+    .HoyuuSikakuContent{
+        margin-left: 2%;
+    }
+    .HoyuuSikakuContent p{
+        line-height: 38px;
+    }
+    /*Javaアイコン*/
+    .JavaImg{
+        width: 60px;
+        height: auto;
+        object-fit: contain;
+        background-size: cover;
+    }
+}
+
+
+/*600px以下*/
+@media screen and (max-width: 600px) {
+    /*プロフィール文字高さ設定*/
+    .ProfileRightContent h3{
+        margin-top: -2%;
+        margin-bottom: 5%;
+        text-align: left;
+    }
+    .ProfileRightContent{
+        margin-left: 2%;
+    }
+    /*発達障害*/
+    .DisabilityWrapper h2{
+        margin-top: 20%;
+        margin-bottom: 10%;
+        line-height: 30px;
+    }
+    .DisabilityWrapper h3{
+        font-size: 15px;
+        margin-top: 9%;
+        margin-bottom: 3%;
+    }
+    .DisabilityInner{
+        width: 80%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .DisabilityWrapper p{
+        font-size: 10px;
+        line-height: 14px;
+    }
+    
+
+    /*自分の画像*/
+    .MyImg{
+        width: 20%;
+        height: auto;
+        object-fit: contain;
+        background-size: cover;
+        margin-right: 3%;
+        vertical-align: middle;
+    }
+
+    /*強みと弱み*/
+    
+    .TuyomiYowamiWrapper h2{
+        margin-top: 20%;
+        margin-bottom: 10%;
+        line-height: 30px;
+    }
+    .TuyomiYowamiWrapper h3{
+        font-size: 15px;
+        margin-top: 9%;
+        margin-bottom: 3%;
+    }
+    .TuyomiYowamiInner{
+        width: 80%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .TuyomiYowamiWrapper p{
+        font-size: 10px;
+        line-height: 20px;
+    }
+
+    /*MyHistory*/
+    .MyHistoryInner{
+        width: 80% !important;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .MyHistoryWrapper{
+        margin-top: 20%;
+    }
+    .MyHistoryContentWrapper img{
+        display: none;
+    }
+    .MyHistoryWrapper h2{
+        font-size: 30px;
+        margin-bottom: 10%;
+    }
+    .MyHistoryWrapper h3{
+        font-size: 15px;
+        margin-top: 15%;
+        margin-bottom: 6%;
+    }
+    .MyHistoryWrapper h4{
+        font-size: 12px;
+        line-height: 15px;
+        margin-bottom: 6%;
+    }
+    .MyHistoryWrapper p{
+        font-size: 10px;
+        line-height: 14px;
+    }
+    .MyHistoryContent{
+        width: 288px;
+        height: 288px;
+    }
+    .MyHistoryRight{
+        width: 288px;
+        height: 288px;
+        margin-left: auto;
+    }
+    .SyasexnRight{
+        margin-top: -9%;
+        margin-bottom: -9%;
+        width: 30%;
+        height: 15%;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        background-image: linear-gradient(to right top, transparent 43%, #f8f8f8 43%, #f8f8f8 57%, transparent 57%);
+    }
+    .SyasexnLeft{
+        margin-top: -9%;
+        margin-bottom: -9%;
+        width: 30%;
+        height: 15%;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        background-image: linear-gradient(to left top, transparent 43%, #f8f8f8 43%, #f8f8f8 57%, transparent 57%);
+    }
+
+    /*プログラミングスキル*/
+    .ProgramSkillHistoryWrapper{
+        margin-top: 15%;
+    }
+    .ProgramSkillWrapper{
+        width: 85%;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 20%;
+    }
+    .ProgramSkillContent h4{
+        font-size: 13px;
+        line-height: 25px;
+        text-align: center;
+    }
+    .ProgramSkillContent h3{
+        font-size: 16px;
+        margin-top: 15%;
+        margin-bottom: 10%;
+    }
+    .ProgramSkillContent p{
+        font-size: 10px;
+        line-height: 14px;
+    }
+    .ProgramFlex{
+        margin-top: 6%;
+    }
+    .ProgramFlex img{
+        width: 50px;
+        height: auto;
+        object-fit: contain;
+        background-size: cover;
+        vertical-align: middle;
+    }
+    .MVCWrapper img{
+        width: 50px;
+        height: auto;
+        object-fit: contain;
+        background-size: cover;
+        vertical-align: middle;
+    }
+    .DBImg,.ServletImg{
+        width: 70px !important;
+        height: auto;
+        object-fit: contain;
+        background-size: cover;
+        vertical-align: middle;
+    }
+    .MVCWrapper{
+        margin-top: 6%;
+    }
+
+    /*プログラミングヒストリー*/
+    .ProgramSkillHistoryContent{
+        width: 68%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .ProgramSkillHistoryInner{
+        width: 280px;
+        height: 280px;
+    }
+
+    .ProgramSkillHistoryWrapper h3{
+        font-size: 15px;
+        margin-top: 22%;
+        margin-bottom: 1%;
+    }
+    .ProgramSkillHistoryWrapper h4{
+        margin-top: 5%;
+        margin-bottom: 6%;
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .ProgramSkillHistoryWrapper p{
+        font-size: 7px;
+        line-height: 11px;
+    }
+    .ProgramSkillHistoryInnerRight{
+        width: 265px;
+        height: 265px;
+        margin-left: auto;
+    }
+    .ProgramSkillHistoryWrapper{
+        width: 95%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .SyasexnRight2{
+        margin-top: -9%;
+        margin-bottom: -9%;
+        width: 30%;
+        height: 12%;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        background-image: linear-gradient(to right top, transparent 40%, #f8f8f8 40%, #f8f8f8 60%, transparent 60%);
+    }
+    .SyasexnLeft2{
+        margin-top: -9%;
+        margin-bottom: -9%;
+        width: 30%;
+        height: 12%;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        background-image: linear-gradient(to left top, transparent 40%, #f8f8f8 40%, #f8f8f8 60%, transparent 60%);
+    }
+    .PKCTAC{
+        text-align: left;
+    }
+    
+    /*大学生活*/
+    .CollegeWrapper{
+        margin-top: 20%;
+    }
+    .CollegeWrapper h2{
+        margin-bottom: 5%;
+    }
+    
+    .CollegeWrapper p{
+        font-size: 10px;
+        line-height: 14px;
+        text-align: center;
+    }
+    .CollegeContent{
+        width: 83% !important;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .CollegeWrapper h3{
+        text-align: center;
+        font-size: 13px;
+        line-height: 17px;
+        margin-top: 6%;
+    }
+    .CollegeContentFlex{
+        width: 100% !important;
+        margin-top: 7%;
+        display: flex;
+        justify-content: space-evenly;
+        margin-right: auto;
+        margin-left: auto;
+        align-items: center;
+    }
+    .CollegeContentFlex h4{
+        font-size: 7px;
+        line-height: 11px;
+        margin-bottom: 3%;
+    }
+    .CollegeContentSexnseki ul p{
+        text-align: left;
+        line-height: 11px;
+    }
+    .CollegeSexnsekihistory{
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 1%;
+    }
+    .CollegeSexnsekihistoryBottom{
+        margin-top: 7%;
+    }
+    .CollegeSexnsekihistory p{
+        text-align: left;
+    }
+    h3.BETh3{
+        margin-top: 12%;
+        margin-bottom: 3%;
+    }
+    p.VideoP{
+        margin-top: 0.5%;
+        font-size: 7px;
+        line-height: 9px;
+        text-align: left;
+        margin-bottom: 3%;
+    }
+    
+
+    /*大学生活紹介画像*/
+    .SGUMeImg{
+        width: 22%;
+        height: auto;
+        object-fit: contain;
+        background-size: cover;
+        vertical-align: middle;
+        border: 2px solid white;
+        border-radius: 50%;
+    }
+    .SGUOUZAImg{
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+        background-size: cover;
+        vertical-align: middle;
+        border: 2px solid white;
+        border-radius: 0%;
+    }
+    .SyuxnkiImg{
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+        background-size: cover;
+        vertical-align: middle;
+        border: 2px solid white;
+        border-radius: 0%;
+    }
+    .IxntaiImg{
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+        background-size: cover;
+        vertical-align: middle;
+        border: 2px solid white;
+        border-radius: 0%;
+    }
+    /*動画*/
+    .VideoImg{
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+        background-size: cover;
+        vertical-align: middle;
+        border: 2px solid white;
+        border-radius: 0%;
+    }
+
+    /*札幌学院大学ソフトテニス*/
+    .SGUSoftTennis{
+        text-align: center;
+        margin-top: 10%;
+    }
+    .SGUSoftTennis h3.SGUh2{
+        text-align: center;
+        font-size: 10px !important;
+        line-height: 10px;
+        font-weight: 100;
+        text-decoration: none;
+        color: black;
+        margin-bottom: 1%;
+    }
+    .SGUSoftTennis a{
+        text-align: center;
+        font-size: 10px;
+        line-height: 10px;
+        font-weight: 100;
+        text-decoration: none;
+        color: white;
+        font-weight: 500;
+        border: solid 1px #333333;
+        background-color: #333333;
+        border-radius: 13px;
+        padding: 0.25% 1%;
+    }
+    
+
+    /*私の趣味*/
+    .HobbyWrapper{
+        margin-top: 20%;
+    }
+    .HobbyWrapper h2{
+        margin-bottom: 5%;
+    }
+    .MyFavoriteWRapper p{
+        font-size: 10px;
+        line-height: 14px;
+        text-align: center;
+    }
+    .MyFavoriteContent{
+        width: 83% !important;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .MyFavoriteContent h3{
+        font-size: 14px;
+        text-align: center;
+        color: #444444;
+        font-weight: 100;
+        margin-top: 13%;
+        margin-bottom: 5%;
+    }
+    .MyFavoriteContent p{
+        font-size: 10px;
+        line-height: 14px;
+        text-align: center;
+    }
+    .MinimalImg{
+        margin-top: 1%;
+        margin-bottom: 1%;
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+        background-size: cover;
+        vertical-align: middle;
+        border: 2px solid white;
+        border-radius: 0%;
+    }
+    .HobbyImg{
+        margin-top: 1%;
+        margin-bottom: 1%;
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+        background-size: cover;
+        vertical-align: middle;
+        border: 2px solid white;
+        border-radius: 0%;
+    }
+
+    /*スクロール*/
+    .SyasexnWrapper{
+        background-color: #f8f8f8;
+        width: 16px;
+        height: 16px;
+        overflow: hidden;
+        display: inline-block;
+        position: absolute;
+        top: 96%;
+        right: 2%;
+        position: fixed;
+        cursor: pointer;
+      }
+      .sysasexnblack{
+        overflow: hidden;
+        margin-top: 35%;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        border-top: 2.5px solid #333333;
+        border-left: 2.5px solid #333333;
+        width: 5px;
+        height: 5px;
+        transform: rotate(45deg);
+      }
+
+    /*フッター*/
+    footer{
+        margin-top: 5%;
+    }
+    p.CopyRight{
+        font-size: 7px;
+    }
+    footer p{
+        padding-top: 4%;
+        text-align: center;
+        padding-bottom: 3%;
+    }
+
+    .MyHistoryInner{
+        width: 95%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    /*ラスト*/
+    .Last{
+        margin-top: 15%;
+        font-family: "Font Awesome 5 Free", sans-serif;
+        font-size: 10px;
+        text-align: center;
+    }
+    .Last p{
+        font-size: 10px;
+    }
+}
+
+/*600px以上*/
+@media screen and (min-width: 600px) {
+    /*プロフィール文字高さ設定*/
+    .ProfileRightContent h3{
+        margin-top: 7%;
+        margin-bottom: 7%;
+        text-align: left;
+        font-size: 20px !important;
+    }
+    .ProfileRightContent{
+        margin-left: 2%;
+    }
+    /*発達障害*/
+    .DisabilityBr{
+        display: none;
+    }
+    .DisabilityWrapper h2{
+        margin-top: 15%;
+        margin-bottom: 10%;
+    }
+    .DisabilityWrapper h3{
+        font-size: 25px;
+        margin-top: 4%;
+        margin-bottom: 1.5%;
+    }
+    .DisabilityInner{
+        width: 70%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .DisabilityWrapper p{
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    /*自分の画像*/
+    .MyImg{
+        width: 32%;
+        height: auto;
+        object-fit: contain;
+        background-size: cover;
+        margin-right: 3%;
+        vertical-align: middle;
+    }
+
+    /*強みと弱み*/
+    .TYbr{
+        display: none;
+    }
+    .TuyomiYowamiWrapper h2{
+        margin-top: 15%;
+        margin-bottom: 10%;
+    }
+    .TuyomiYowamiWrapper h3{
+        font-size: 25px;
+        margin-top: 4%;
+        margin-bottom: 1.5%;
+    }
+    .TuyomiYowamiInner{
+        width: 70%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .TuyomiYowamiWrapper p{
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    /*MyHistory*/
+    .MyHistoryWrapper{
+        margin-top: 15%;
+    }
+    .MyHistoryWrapper h2{
+        margin-bottom: 10%;
+    }
+    .MyHistoryInner{
+        width: 70%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .MyHistoryContent h3, .MyHistoryRight h3{
+        font-size: 30px;
+        margin-top: 18%;
+        margin-bottom: 5%;
+    }
+    .MyHistoryContent h4, .MyHistoryRight h4{
+        margin-bottom: 5%;
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .MyHistoryContent{
+        display: flex;
+    }
+    .MyHistoryContent{
+        width: 490px;
+        height: 490px;
+    }
+    .MyHistoryContentRight{
+        display: inline-block;
+    }
+    .MyHistoryContentInner{
+        display: block;
+    }
+    .MyHistoryContent p, .MyHistoryRight p{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .MyHistoryRight{
+        width: 480px;
+        height: 480px;
+        margin-left: auto;
+    }
+    .SyasexnRight{
+        margin-top: -9%;
+        margin-bottom: -9%;
+        width: 30%;
+        height: 30%;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        background-image: linear-gradient(to right top, transparent 43%, #f8f8f8 43%, #f8f8f8 57%, transparent 57%);
+    }
+    .SyasexnLeft{
+        margin-top: -9%;
+        margin-bottom: -9%;
+        width: 30%;
+        height: 30%;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        background-image: linear-gradient(to left top, transparent 43%, #f8f8f8 43%, #f8f8f8 57%, transparent 57%);
+    }
+    .MyHistoryWrapper img{
+        display: inline-block;
+        width: 30%;
+        height: auto;
+        object-fit: contain;
+        background-size: cover;
+        vertical-align: middle;
+        margin-left: 10%;
+    }
+    .MyHistoryFlex{
+        display: flex;
+    }
+    
+
+    /*プログラミングスキル*/
+    .ProgramSkillWrapper{
+        margin-top: 15%;
+    }
+    /*プログラミングスキル*/
+    .ProgramSkillWrapper{
+        width: 80%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .ProgramSkillContent h4{
+        font-size: 20px;
+        line-height: 25px;
+        text-align: center;
+    }
+    .ProgramSkillContent h3{
+        font-size: 35px;
+        margin-top: 15%;
+        margin-bottom: 5%;
+    }
+    .ProgramSkillContent p{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .ProgramFlex{
+        margin-top: 6%;
+    }
+    .ProgramFlex img{
+        width: 100px;
+        height: auto;
+        object-fit: contain;
+        background-size: cover;
+        vertical-align: middle;
+    }
+    .MVCWrapper img{
+        width: 100px;
+        height: auto;
+        object-fit: contain;
+        background-size: cover;
+        vertical-align: middle;
+    }
+    .DBImg,.ServletImg{
+        width: 140px !important;
+        height: auto;
+        object-fit: contain;
+        background-size: cover;
+        vertical-align: middle;
+    }
+    .MVCWrapper{
+        margin-top: 6%;
+    }
+
+    /*プログラミングヒストリー*/
+    .ProgramSkillHistoryInner{
+        width: 370px;
+        height: 370px;
+    }
+    .ProgramSkillHistoryWrapper h3{
+        font-size: 23px !important;
+        margin-top: 22%;
+        margin-bottom: 2%;
+    }
+
+    .ProgramSkillHistoryWrapper h4{
+        margin-top: 5%;
+        margin-bottom: 6%;
+        font-size: 13px;
+        line-height: 19px;
+    }
+    
+    .ProgramSkillHistoryWrapper p{
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .ProgramSkillHistoryInnerRight{
+        width: 370px;
+        height: 370px;
+        margin-left: auto;
+    }
+    .ProgramSkillHistoryWrapper{
+        margin-top: 10%;
+        width: 70%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .SyasexnRight2{
+        margin-top: -9%;
+        margin-bottom: -9%;
+        width: 40%;
+        height: 10%;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        background-image: linear-gradient(to right top, transparent 40%, #f8f8f8 40%, #f8f8f8 60%, transparent 60%);
+    }
+    .SyasexnLeft2{
+        margin-top: -9%;
+        margin-bottom: -9%;
+        width: 40%;
+        height: 10%;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        background-image: linear-gradient(to left top, transparent 40%, #f8f8f8 40%, #f8f8f8 60%, transparent 60%);
+    }
+    .PKCTAC{
+        text-align: center;
+    }
+    
+
+    /*大学生活*/
+    .CollegeWrapper{
+        margin-top: 15%;
+    }
+    .CollegeWrapper h2{
+        margin-bottom: 5%;
+    }
+    
+    .CollegeWrapper p{
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+    }
+    
+    .CollegeWrapper h3{
+        text-align: center;
+        font-size: 20px;
+        line-height: 38px;
+        margin-top: 10%;
+    }
+    .CollegeContentFlex{
+        margin-top: 7%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .CollegeContentFlex h4{
+        font-size: 20px;
+        line-height: 23px;
+        margin-bottom: 3%;
+    }
+    
+    .CollegeContentSexnseki ul p{
+        text-align: left;
+        line-height: 30px;
+    }
+    .CollegeSexnsekihistory{
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 1%;
+    }
+    .CollegeSexnsekihistoryBottom{
+        margin-top: 5%;
+    }
+    .CollegeSexnsekihistory p{
+        text-align: left;
+    }
+    h3.BETh3{
+        margin-top: 15%;
+        margin-bottom: 3%;
+    }
+
+    /*大学生活紹介画像*/
+    .SGUMeImg{
+        width: 28%;
+        height: auto;
+        object-fit: contain;
+        background-size: cover;
+        vertical-align: middle;
+        border: 2px solid white;
+        border-radius: 50%;
+    }
+    .SGUOUZAImg{
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+        background-size: cover;
+        vertical-align: middle;
+        border: 2px solid white;
+        border-radius: 0%;
+    }
+    .SyuxnkiImg{
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+        background-size: cover;
+        vertical-align: middle;
+        border: 2px solid white;
+        border-radius: 0%;
+    }
+    .IxntaiImg{
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+        background-size: cover;
+        vertical-align: middle;
+        border: 2px solid white;
+        border-radius: 0%;
+    }
+    /*動画*/
+    .VideoImg{
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+        background-size: cover;
+        vertical-align: middle;
+        border: 2px solid white;
+        border-radius: 0%;
+    }
+    p.VideoP{
+        margin-top: 0.5%;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: left;
+        margin-bottom: 3%;
+    }
+
+    /*札幌学院大学ソフトテニス*/
+    .SGUSoftTennis{
+        text-align: center;
+        margin-top: 5%;
+    }
+    .SGUSoftTennis h3.SGUh2{
+        text-align: center;
+        font-size: 14px !important;
+        line-height: 17px !important;
+        font-weight: 100;
+        text-decoration: none;
+        color: black;
+        margin-bottom: 1%;
+    }
+    .SGUSoftTennis a{
+        text-align: center;
+        font-size: 14px;
+        line-height: 17px;
+        font-weight: 100;
+        text-decoration: none;
+        color: white;
+        font-weight: 500;
+        border: solid 1px #333333;
+        background-color: #333333;
+        border-radius: 13px;
+        padding: 0.25% 1%;
+    }
+
+
+
+    /*私の趣味*/
+    .HobbyWrapper{
+        margin-top: 15%;
+    }
+    .HobbyWrapper h2{
+        margin-bottom: 5%;
+    }
+    .MyFavoriteWRapper p{
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+    }
+    .MyFavoriteContent{
+        width: 83% !important;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .MyFavoriteContent h3{
+        font-size: 35px;
+        text-align: center;
+        color: #444444;
+        font-weight: 100;
+        margin-top: 10%;
+        margin-bottom: 5%;
+    }
+    .MinimalImg{
+        margin-top: 1%;
+        margin-bottom: 1%;
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+        background-size: cover;
+        vertical-align: middle;
+        border: 2px solid white;
+        border-radius: 0%;
+    }
+    .HobbyImg{
+        margin-top: 1%;
+        margin-bottom: 1%;
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+        background-size: cover;
+        vertical-align: middle;
+        border: 2px solid white;
+        border-radius: 0%;
+    }
+    
+    /*スクロール*/
+    .SyasexnWrapper{
+        background-color: #f8f8f8;
+        width: 45px;
+        height: 45px;
+        overflow: hidden;
+        display: inline-block;
+        position: absolute;
+        top: 93.5%;
+        right: 2%;
+        position: fixed;
+        cursor: pointer;
+      }
+      .sysasexnblack{
+        overflow: hidden;
+        margin-top: 35%;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        border-top: 5px solid #333333;
+        border-left: 5px solid #333333;
+        width: 15px;
+        height: 15px;
+        transform: rotate(45deg);
+      }
+
+      /*ラスト*/
+    .Last{
+        margin-top: 10%;
+        font-family: "Font Awesome 5 Free", sans-serif;
+        font-size: 14px;
+        text-align: center;
+    }
+    .Last p{
+        font-size: 14px;
+    }
+
+    /*フッター*/
+    footer{
+        margin-top: 5%;
+    }
+    p.CopyRight{
+        font-size: 12px;
+        padding-top: 1%;
+        text-align: center;
+        padding-bottom: 1.5%;
+    }
+    footer p{
+        padding-top: 1%;
+        text-align: center;
+        padding-bottom: 1.5%;
+    }
+    .MyFavoriteContent p{
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+    }
+}
+
+/*1161px以下*/
+@media screen and (max-width: 1161px) {
+    .MyHistoryInner{
+        width: 90%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+/*903px以下*/
+@media screen and (max-width: 903px) {
+    .MyHistoryInner{
+        width: 95%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .MyHistory img{
+        display: inline-block;
+        width: 20%;
+        height: auto;
+        object-fit: contain;
+        background-size: cover;
+        vertical-align: middle;
+        margin-left: 3%;
+    }
+}
+
+/*601px以上667px以下*/
+@media screen and (min-width: 601px) and (max-width: 667px) {
+    .MyHistoryInner{
+        width: 95%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .MyHistoryContentWrapper img{
+        display: none;
+    }
+}
+
+/*678px以上*/
+@media screen and (min-width: 678px) {
+    .CollegeContent{
+        width: 70%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+/*678px以下*/
+@media screen and (max-width: 678px) {
+    .CollegeContent{
+        width: 80%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}

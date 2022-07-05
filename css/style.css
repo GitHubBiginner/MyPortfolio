@@ -1,0 +1,319 @@
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/*共通部分*/
+body{
+    font-family: "游ゴシック", "ヒラギノ丸ゴ ProN", sans-serif;
+}
+body h2, body h3, body h4{
+    color: #414141;
+}
+
+
+/*ヘッダー*/
+.Header{
+    width: 100%;
+}
+/*ナビ固定*/
+.NavIdWrapper{
+    position: fixed;
+    display: block;
+    width: 100%;
+    background-color: white;
+    z-index: 999;
+    box-shadow: 0px 10px 10px -7px rgba(0,0,0,0.5);
+}
+.NavId{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+.NavId ul{
+    display: flex;
+}
+.NavId li{
+    margin-right: auto;
+    margin-left: auto;
+}
+.NavId a{
+    text-decoration: none;
+    color: black;
+    font-family: "Font Awesome 5 Free", sans-serif;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+}
+.NavId li a:hover{
+    opacity: 0.5;
+    text-decoration: underline;
+    transition: 0.3s;
+    cursor: pointer;
+}
+/*ヘッダー背景画像*/
+.HeaderImgHK h1{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+}
+
+/*メイン内容*/
+#Main{
+    width: 100%;
+    display: block;
+}
+/*メインプロフィール*/
+#MainProfile{
+    width: 100%;
+    display: block;
+}
+#Main h2{
+    font-family: -apple-system, "system-ui", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+/*プロフィール*/
+.ProfileContent{
+    display: flex;
+    justify-content: center;
+}
+.ProfileSyoukai{
+    display: inline-block;
+}
+/*プロフィール画像*/
+.ProfileImg{
+    display: inline-block;
+    width: 30%;
+    height: 30%;
+    border-radius: 50%;
+}
+
+.ProfileContentWrapper{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+/*詳細*/
+.NA{
+    color: gray;
+    text-decoration: none;
+}
+.NA:hover{
+    opacity: 0.5;
+    text-decoration: underline;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+/*スキル*/
+.HtmlCssWrapper{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.HtmlCssInner{
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+.HtmlCssImg{
+    display: inline-block;
+}
+.HtmlCssContent{
+    display: inline-block;
+    width: 80%;
+}
+
+/*Java*/
+.JavaWrapper{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.JavaInner{
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+.JavaImg{
+    display: inline-block;
+}
+.JavaContent{
+    display: inline-block;
+}
+
+/*フッター*/
+#Footer{
+    background-color: #333333;
+    display: block;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.CopyRight{
+    color: #888888;
+    font-family: -apple-system, "system-ui", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    text-align: center;
+}
+.FotterNav{
+    display: flex;
+    justify-content: center;
+}
+.FotterNav li{
+    display: inline-block;
+    list-style: none;
+}
+.FotterNav a{
+    text-decoration: none;
+    color: white;
+    font-family: -apple-system, "system-ui", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.FotterNav a:hover{
+    opacity: 0.5;
+    text-decoration: underline;
+    transition: 0.3s;
+    cursor: pointer;
+}
+/*成果物*/
+.ProductionContentInner a{
+    color: gray;
+    text-decoration: none;
+}
+.ProductionContentInner a:hover{
+    opacity: 0.5;
+    text-decoration: underline;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.ISARAMh3{
+    font-family: -apple-system, "system-ui", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    color: #414141;
+    font-weight: 400;
+    text-align: left;
+    margin-bottom: 2%;
+}
+.ISARAURLWrapper{
+    margin-top: 2%;
+}
+.ISARAWrapper{
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.ISARAURLWrapper p{
+    text-align: left;
+}
+
+/*ISARA画像*/
+.ISARAIMG{
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    object-fit: contain;
+    background-size: cover;
+    border: solid 1px #f5f5f5;
+}

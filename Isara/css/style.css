@@ -1,0 +1,1443 @@
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body p {
+  font-size: 15px;
+  line-height: 24px;
+  text-align: center;
+}
+
+/* 600px以下の時適用 */
+@media screen and (max-width: 600px) {
+  body {
+    font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ ProN W3", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+  }
+  /* ヘッダー固定する場所 */
+  header {
+    width: 100%;
+    height: 62px;
+    display: flex;
+    display: block;
+    background-color: white !important;
+    position: fixed;
+  }
+  header h2 {
+    font-size: 10px;
+    display: inline-block;
+  }
+  header img {
+    width: 84px;
+    height: 27px;
+    display: inline-block;
+  }
+  header a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    line-height: 12px;
+    padding-top: 40px;
+    display: inline-block;
+  }
+  .siryouseikyuu {
+    background: url(../Images/form.png) top 5px center no-repeat;
+    background-size: 30%;
+    border: 1px solid #da6b64;
+    background-color: #da6b64;
+    display: block;
+    height: 60px;
+    width: 80px;
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  .sirouseikyuu2 {
+    display: none;
+  }
+  header a:hover {
+    text-decoration: underline;
+  }
+  header span {
+    display: none;
+  }
+  .PCV {
+    display: none;
+  }
+  .sumahoV {
+    display: flex;
+    flex-direction: column;
+    display: inline-block;
+    height: 62px;
+    width: 170px;
+    margin-left: 3%;
+  }
+  .sumahoV h2 {
+    font-size: 10px;
+    line-height: 28px;
+    display: inline-block;
+  }
+  .sumahoV img {
+    display: inline-block;
+  }
+  .PAJ {
+    background-image: url(../Images/main.jpg);
+    width: 100%;
+    height: 316px;
+    padding-top: 62px;
+  }
+  .Bc-Orange p{
+      font-size: 15px;
+      line-height: 24px;
+  }
+  .JR0 p{
+      font-size: 14px;
+      line-height: 22px;
+  }
+  .iSara3M img{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+    background-size: cover;
+  }
+  .flow{
+    display: none;
+  }
+  .flowLine, .flowLine2{
+    display: none;
+  }
+  .pasokoxngexntei{
+    display: none;
+  }
+  .flow{
+    display: none;
+  }
+  .iSaraJukouseiST .TokutexnWrapper .PASOKOXNPS{
+    display: none;
+  }
+  .Tokutexn1, .Tokutexn2, .Tokutexn3{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 90%;
+    margin-bottom: 5%;
+  }
+  .iSaraJukouseiST .TOKUTEXNEXN{
+    text-align: center;
+    font-size: 12px;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border: 1px solid white;
+    border-radius: 50%;
+    background-color: white;
+    color: #EBB94D;
+    margin-left: 5%;
+  }
+  .iSaraJukouseiST .TokutexnFlex p{
+    color: white;
+    font-size: 12px;
+    line-height: 19px;
+    display: inline-block;
+    margin-left: 3%;
+    text-align: left;
+  }
+  .iSaraJissituZero .iSaraJissituZeroH2{
+  font-size: 12px;
+  line-height: 19px;
+  display: block;
+  position: relative;
+  top: -22px;
+  width: 35%;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #F5C23C;
+  text-align: center;
+  }
+  .TokutexnWrapper{
+    display: flex;
+  }
+  .SyasexnWrapper{
+    background-color: #ECECEC;
+    width: 20px;
+    height: 23px;
+    overflow: hidden;
+    display: inline-block;
+    position: absolute;
+    top: 90%;
+    right: 5%;
+    position: fixed;
+    cursor: pointer;
+}
+.sysasexnblack{
+    overflow: hidden;
+    margin-top: 40%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    border-top: 3px solid #333333;
+    border-left: 3px solid #333333;
+    width: 7px;
+    height: 7px;
+    transform: rotate(45deg);
+  }
+  .about{
+    display: block;
+    color: white;
+    border: 1px solid #EBB94E;
+    background-color: #EBB94E;
+    width: 61px;
+    height: 61px;
+    border-radius: 50%;
+    line-height: 61px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    bottom: 30px;
+  }
+}
+/*共通部部分 */
+header{
+  position: fixed;
+}
+main {
+  display: block;
+  width: 100%;
+}
+.PAJ {
+  background-image: url(../Images/main.jpg);
+  background-size: cover;
+  display: table;
+}
+.PAJ img {
+  width: 285px;
+  height: 80px;
+  display: block;
+  margin: 32px auto 45px auto;
+}
+.PAJ h2 {
+  text-align: center;
+  font-size: 18px;
+  line-height: 29px;
+}
+.PAJ p{
+    font-size: 15px;
+    line-height: 17px;
+    font-weight: 550;
+}
+.PAJWrapper{
+    display: table-cell;
+    vertical-align: middle;
+}
+.Bc-Orange{
+    background-color: #EBB94E;
+    width: 100%;
+    display: block;
+}
+.Bc-Orange p{
+    color: white;
+}
+.JR0{
+    margin-top: 16px;
+    border: 1px solid white;
+    border-radius: 6px;
+    background-color: white;
+    width: 362px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.JR0 p{
+    color: red;
+    font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+.OSK{
+    margin-top: 14px;
+    color: white;
+    font-size: 16px;
+    line-height: 48px;
+    text-align: center;
+    background-color: #DA6B64;
+    border: 1px solid #DA6B64;
+    width: auto;
+    height: auto;
+    border-radius: 100px;
+    margin-right: 20%;
+    margin-left: 20%;
+    height: 48px;
+}
+.OSK a{
+    text-decoration: none;
+    color: white;
+}
+.M20{
+    padding-top: 10px;
+    display: block;
+}
+.kisei{
+  font-size: 15px;
+  line-height: 24px;
+  display: block;
+  margin-top: 20px;
+}
+.TIS{
+  margin-top: 33px;
+  font-size: 12px;
+  line-height: 19px;
+  color: white;
+  display: flex;
+  width: 226px;
+  height: 19px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  padding-bottom: 33px;
+}
+.TIS a{
+  color: white;
+  text-decoration: none;
+}
+.twwet{
+  border: 1px solid #4B8EEC;
+  background-color: #4B8EEC;
+  border-radius: 20px 4px 4px 20px;
+  width: 85px;
+}
+.iine{
+  border: 1px solid #4777F2;
+  background-color: #4777F2;
+  width: 81px;
+  border-radius: 4px;
+}
+.shea{
+  border: 1px solid #4777F2;
+  background-color: #4777F2;
+  border-radius: 4px;
+  width: 50px;
+  margin-left: 10px;
+}
+.twwet, .iine, .shea {
+  display: inline-block;
+}
+/* EHJの前のしかく */
+.EHJ::before{
+  content: "";
+  width: 30px;
+  height: 30px;
+  box-sizing: border-box;
+  border-top: 4px solid #EBB94E;
+  border-left: 4px solid #EBB94E;
+  display: block;
+  margin-left: 5%;
+  margin-bottom: -20px;
+}
+.EHJ{
+  line-height: 40px;
+  text-align: center;
+  width: 100%;
+}
+
+/* EHJの後のしかく */
+.EHJ::after{
+  content: "";
+  width: 30px;
+  height: 30px;
+  box-sizing: border-box;
+  border-bottom: 4px solid #EBB94E;
+  border-right: 4px solid #EBB94E;
+  display: block;
+  margin-left: 90%;
+  margin-top: -20px;
+}
+.EHJWrapper{
+  margin-top: 30px;
+  width: 100%;
+}
+.kasegu{
+  font-weight: bold;
+  text-decoration: underline;
+  text-decoration-color: #EBB94E;
+  text-decoration-thickness: 3px;
+}
+.EHJMAIN{
+  background: url(../Images/introbottom.jpg);
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  background-position: center bottom;
+}
+.EHJMAIN P{
+  font-size: 20px;
+  line-height: 32px;
+}
+.EHJbuxnsyou{
+  padding-bottom: 160px;
+}
+.NEIK{
+  background-color: #FDF5E0;
+  width: 100%;
+  text-align: center;
+  height: auto;
+  padding-bottom: 70px;
+}
+.NEIK h2::before{
+  content: "";
+  width: 30px;
+  height: 30px;
+  box-sizing: border-box;
+  border-top: 4px solid #EBB94E;
+  border-left: 4px solid #EBB94E;
+  display: block;
+  margin-left: 5%;
+  margin-bottom: -20px;
+}
+.NEIK h2 {
+  line-height: 40px;
+  font-size: 18px;
+}
+.NEIK h2::after{
+  content: "";
+  width: 30px;
+  height: 30px;
+  box-sizing: border-box;
+  border-bottom: 4px solid #EBB94E;
+  border-right: 4px solid #EBB94E;
+  display: block;
+  margin-left: 90%;
+  margin-top: -20px;
+}
+.NEIK5{
+  width: 90%;
+  height: auto;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: white;
+  border: 2px solid #EBB94E;
+  border-radius: 3px;
+}
+.NEIK5 p{
+  font-size: 10px;
+  line-height: 16px;
+}
+.NEIK5 h3{
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 24px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.kasegufocus{
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 26px;
+}
+.NEIK img{
+  width: 32px;
+  height: 30px;
+  margin-bottom: 8px;
+}
+#connection{
+  width: 75px;
+  height: 30px;
+}
+.skill5Flex{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.skill5{
+  margin-bottom: 15px;
+}
+.iSaraKPO{
+  text-align: center;
+  background: url(../Images/aboutsecondbg.jpg);
+  width: 100%;
+  height: auto;
+  background-size: cover;
+}
+.iSaraKPO h2{
+  font-size: 18px;
+  line-height: 20px;
+  color: white;
+  padding-top: 50px;
+}
+.iSaraKPO p{
+  color: white;
+  font-size: 12px;
+  line-height: 19px;
+  display: block;
+}
+.iSaraKPOorange{
+  color: #9E823A;
+}
+.STEP{
+  width: 90%;
+  background-color: white;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  border: 1px solid white;
+  border-radius: 5px;
+  margin-bottom: 16px;
+}
+.STEP h3{
+  font-size: 12px;
+  line-height: 19px;
+  border: 1px solid #EBB94E;
+  border-radius: 5px;
+  background-color: #EBB94E;
+  color: white;
+  text-align: center;
+  display: block;
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 4%;
+}
+.STEP p{
+  margin-top: 5%;
+  margin-bottom: 5%;
+  color: black;
+  font-size: 12px;
+  line-height: 19px;
+  font-weight: bold;
+}
+.STEPwrapper{
+  margin-top: 32px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.SAPPHEBlue{
+  width: 100%;
+  background-color: #336EA9;
+  height: auto;
+  margin-top: 3%;
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+.PSIIorange{
+  color: #C3AC5C;
+}
+.iSaraManabuImgBox{
+  margin-top: 2%;
+  width: 80%;
+  height: auto;
+  display: flex;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+.iSaraManabuImg{
+  width: 21%;
+  height: auto;
+  display: inline-block;
+  margin-right: 1%;
+  margin-left: 1%;
+}
+iSaraManabuWrapper{
+  text-align: center;
+  width: 100%;
+}
+.KOI{
+  font-size: 12px;
+  line-height: 19px;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+.iSaraKomojiHaxnkaku{
+  font-size: 12px;
+  font-weight: normal;
+}
+.iSaraManabuWrapper h2{
+  font-size: 18px;
+  text-align: center;
+  margin: 10% auto;
+}
+.HPSKKTGtitle::before{
+  content: "";
+  width: 30px;
+  height: 30px;
+  box-sizing: border-box;
+  border-top: 4px solid #EBB94E;
+  border-left: 4px solid #EBB94E;
+  display: block;
+  margin-left: 5%;
+  margin-bottom: -20px;
+}
+.HPSKKTGtitle{
+  padding-top: 8%;
+  width: 100%;
+}
+
+.HPSKKTGtitle::after{
+  content: "";
+  width: 30px;
+  height: 30px;
+  box-sizing: border-box;
+  border-bottom: 4px solid #EBB94E;
+  border-right: 4px solid #EBB94E;
+  display: block;
+  margin-left: 90%;
+  margin-top: -20px;
+}
+.HPSKKTG{
+  background-color: #FDF5E0;
+  width: 100%;
+  overflow: hidden;
+}
+.HPSKKTGtitle{
+  margin-bottom: 3%;
+}
+.HPSKKTGtitle p{
+  font-size: 16px;
+  line-height: 40px;
+}
+.HPSKKTGtitle h2{
+  font-size: 24px;
+  line-height: 40px;
+  text-align: center;
+}
+.iSara3M h3{
+  color: #EEC262;
+  font-size: 15px;
+  line-height: 40px;
+  text-align: center;
+}
+.iSara3M p{
+  font-size: 12px;
+  line-height: 19px;
+}
+.iSara3M{
+  width: 94%;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 5%;
+}
+.KikokuSupport{
+  width: 90%;
+  border: 2px solid #F0CB7A;
+  border-radius: 5px;
+  background-color: white;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+.KikokuSupport h2 {
+  color: #F1C976;
+  text-align: center;
+  font-size: 18px;
+  line-height: 29px;
+  margin-top: 3%;
+}
+.KikokuSupport h3 {
+  text-align: center;
+  font-size: 15px;
+  line-height: 24px;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+.KikokuSupportP{
+  font-size: 12px;
+  line-height: 19px;
+}
+.KikokuSupportP {
+  margin-bottom: 3%;
+}
+.HPSKKTGlast{
+  margin-top: 3%;
+  margin-bottom: 3%;
+  font-size: 12px;
+  line-height: 19px;
+}
+.SougyouMenber{
+  background: url("../Images/teacherbg.jpg");
+  background-size: cover;
+  object-fit: cover;
+  color: white;
+  font-size: 12px;
+  line-height: 19px;
+}
+.SougyouMenber h2{
+  font-size: 18px;
+  line-height: 40px;
+  text-align: center;
+  display: block;
+  padding-top: 5%;
+  margin-bottom: 5%;
+}
+.FreelanceKousiSetumei{
+  width: 90%;
+  border: 3px solid white;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+.FLKp1{
+  margin-top: 10%;
+  margin-bottom: 2%;
+}
+.FLKp2{
+  margin-bottom: 2%;
+}
+.FreelanceKousi{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+  top: 30px;
+}
+.FLKWWrapper{
+  padding-bottom: 8%;
+}
+.QandA{
+  width: 100%;
+  background-color: #EBB94E;
+  overflow: hidden;
+  display: block;
+}
+.QAP{
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  line-height: 62px;
+  color: #EBB94E;
+  border: 1px solid white;
+  background-color: #EBB94E;
+  width: 62px;
+  height: 62px;
+  border-radius: 50%;
+  background-color: white;
+  font-size: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  overflow: hidden;
+}
+.QandA h2 {
+  font-size: 14px;
+  line-height: 40px;
+  color: white;
+  text-align: center;
+  margin-bottom: 5%;
+}
+.QandA h2::before{
+  content: "";
+  width: 30px;
+  height: 30px;
+  box-sizing: border-box;
+  border-top: 4px solid white;
+  border-left: 4px solid white;
+  display: block;
+  margin-left: 5%;
+  margin-bottom: -20px;
+}
+
+.QandA h2::after{
+  content: "";
+  width: 30px;
+  height: 30px;
+  box-sizing: border-box;
+  border-bottom: 4px solid white;
+  border-right: 4px solid white;
+  display: block;
+  margin-left: 90%;
+  margin-top: -20px;
+}
+.seihoukei{
+  overflow: hidden;
+  width: 22px;
+  height: 22px;
+  box-sizing: border-box;
+  border: 1px solid #EBB94E;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+  top: -11px;
+  background-color: #EBB94E;
+  transform: rotate(45deg);
+}
+.JitugexnKa{
+  width: 100%;
+}
+.JitugexnKa h2{
+  text-align: center;
+  font-size: 18px;
+  line-height: 29px;
+}
+.JitugexnKa p{
+  font-size: 12px;
+  line-height: 19px;
+}
+.daisaxnsya{
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 19px;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+.FLESKM{
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  position: relative;
+  height: auto;
+}
+.JitugexnKa img{
+  border: 3px solid #EBB94E;
+  width: 40%;
+  height: auto;
+  overflow: hidden;
+}
+.FLESKMinner{
+  color: #A5A5A5;
+  display: inline-block;
+  width: 60%;
+  height: auto;
+  text-align: left;
+  margin-left: 2%;
+  position: absolute;
+}
+.FLESKMinner p{
+  font-size: 12px;
+  line-height: 20px;
+}
+.FELSKMsetumei{
+  text-align-last: left;
+}
+.jissai{
+  color: #797979;;
+}
+.FLESKMborder{
+  margin-top: 2%;
+  text-decoration: underline;
+  text-align: left;
+  text-decoration-thickness: 2px;
+}
+.FLESKM3{
+  margin-bottom: 10%;
+}
+.iSaraMN{
+  display: block;
+  width: 100%;
+  background: url("../Images/classbg.jpg");
+  background-size: cover;
+  object-fit: cover;
+  overflow: hidden;
+}
+.iSaraMN h2{
+  margin-top: 10%;
+  text-align: center;
+  color: white;
+  font-size: 18px;
+}
+.iSaraMNp{
+  margin-top: 3%;
+  font-size: 12px;
+  line-height: 19px;
+  color: white;
+}
+.TokoumaeJG h3, .BaxnkokuTokoutyuu h3{
+  text-align: center;
+  line-height: 54px;
+  font-size: 12px;
+  color: white;
+  background-color: #336EA9;
+}
+.TokoumaeJG{
+  color: white;
+}
+.TokoumaeJG{
+  border: 2px solid #336EA9;
+  border-radius: 6px;
+  width: 95%;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+.BaxnkokuTokoutyuu{
+  border: 2px solid #336EA9;
+  border-radius: 6px;
+  width: 95%;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+.TokoumaeJG p, .BaxnkokuTokoutyuu p{
+  font-size: 12px;
+  line-height: 40px;
+  color: black;
+  background-color: white;
+  border: 1px solid #E5E5E5;
+  font-weight: bold;
+  list-style: none;
+}
+.TokoumaeJG li, .BaxnkokuTokoutyuu li{
+  list-style: none;
+}
+.TokoumaeJG{
+  margin-top: 5%;
+}
+.BaxnkokuTokoutyuu{
+  margin-top: 5%;
+}
+.kouzahiyouijou{
+  margin-top: 7%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  width: 100%;
+  background-color: #336EA9;
+  color: white;
+  font-size: 15px;
+  line-height: 24px;
+}
+.kouzahiyouijou p{
+  font-size: 15px;
+  line-height: 24px;
+}
+.jukouNR{
+  margin-bottom: 10%;
+}
+.jukouNR h2 {
+  text-align: center;
+  font-size: 18px;
+  line-height: 40px;
+  margin-bottom: 4%;
+}
+.WhyBaxnkoku{
+  margin-top: 3%;
+  background: url(../Images/bangkokbg.jpg);
+  object-fit: cover;
+  background-size: cover;
+  color: white;
+}
+.WhyBaxnkoku h2{
+  font-size: 24px;
+  line-height: 40px;
+  text-align: left;
+  margin-left: 5%;
+  padding-top: 3%;
+  padding-bottom: 5%;
+  text-align: center;
+}
+.KKiSaraNJK{
+  font-size: 12px;
+  line-height: 19px;
+  text-align: left;
+  margin-left: 5%;
+}
+.listBaxnkoku{
+  display: block;
+  margin-top: 2%;
+  margin-left: 10%;
+}
+.listBaxnkoku li p{
+  text-align: left;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 30px;
+}
+.KankyouT{
+  margin-top: 3%;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 19px;
+  text-align: left;
+  margin-left: 5%;
+  padding-bottom: 6%;
+}
+.iSaraJukouseiST{
+  background-color: #F5C23C;
+  overflow: hidden;
+}
+.iSaraJSTH2{
+  padding-top: 5%;
+  margin-bottom: 5%;
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  line-height: 40px;
+}
+.iSaraJukouseiST p{
+  color: white;
+  font-size: 12px;
+  line-height: 19px;
+}
+.blackMoji{
+  color: black;
+}
+.iSaraJissituZero{
+  border: 2px solid white;
+  width: 95%;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+}
+.iSaraJSTH2 h2{
+  border: 1px solid white;
+  width: 45%;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+.TokutexnFlex p{
+  color: black;
+}
+.iSaraJissituZero{
+  margin-top: 8%;
+}
+.iSaraJissituZero{
+  margin-bottom: 4%;
+}
+.iSaraBoraxnthiaNot{
+  background: url(../Images/specialdetail.jpg);
+  object-fit: cover;
+  background-size: cover;
+  overflow: hidden;
+}
+.iSaraBoraxnthiaNot .ISRBNH2{
+  margin-top: 5%;
+  margin-bottom: 5%;
+  text-align: center;
+  font-size: 18px;
+  line-height: 29px;
+  color: white;
+}
+.iSaraBoraxnthiaNot p{
+  color: white;
+  font-size: 12px;
+  line-height: 19px;
+}
+.TukiJuuMaxn{
+  margin-top: 8%;
+  text-align: center;
+  font-size: 18px;
+  line-height: 29px;
+  color: white;
+  display: block;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+}
+.TukiJuuMaxn::before{
+  content: "";
+  width: 30px;
+  height: 30px;
+  border-left: 4px solid white;
+  border-top: 4px solid white;
+  display: block;
+  position: absolute;
+  left: 5%;
+  top: -5px;
+}
+.TukiJuuMaxn::after{
+  content: "";
+  width: 30px;
+  height: 30px;
+  border-right: 4px solid white;
+  border-bottom: 4px solid white;
+  display: block;
+  position: absolute;
+  right: 5%;
+  bottom: -5px;
+}
+.Saidainokati{
+  margin-top: 5%;
+  margin-bottom: 10%;
+}
+.SougyousyaMessage img{
+  width: 95%;
+  height: auto;
+  object-fit: cover;
+  background-size: cover;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+.SougyousyaMessage h2{
+  margin-top: 8%;
+  margin-bottom: 8%;
+  text-align: center;
+  font-size: 18px;
+  line-height: 40ox;
+}
+.SougyousyaMessage h3{
+  font-size: 15px;
+  line-height: 24px;
+  text-align: center;
+  margin-bottom: 5%;
+}
+.SGMS{
+  width: 95%;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 6%;
+}
+.SougyousyaMessage p{
+  color: #333333;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: left;
+}
+.SougyousyaMessage ul li{
+  color: #333333;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: left;
+}
+.ULLI{
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+#SiryouSeikhyuuForm{
+  background-color: #EBB94D;
+  width: 100%;
+  overflow: hidden;
+}
+#SiryouSeikhyuuForm h2{
+  font-size: 18px;
+  line-height: 40px;
+  text-align: center;
+  margin-top: 6%;
+  margin-bottom: 4%;
+}
+#SiryouSeikhyuuForm p{
+  font-size: 12px;
+  line-height: 19px;
+  margin-bottom: 6%;
+}
+.YokuaruSitumoxn h2{
+  font-size: 18px;
+  line-height: 40px;
+  text-align: center;
+}
+footer .Footer{
+  padding-top: 2%;
+  background-color: #ECECEC;
+  display: block;
+  width: 100%;
+  height: auto;
+}
+footer p{
+  font-size: 10px;
+  line-height: 16px;
+  color: #333333;
+}
+.TIS2{
+  margin-top: 1%;
+  margin-bottom: 2%;
+}
+.lastP{
+  padding-bottom: 1%;
+}
+.YokuaruSitumoxn h2{
+  font-size: 18px;
+  line-height: 40px;
+  margin-top: 4%;
+  margin-bottom: 3%;
+}
+.YokuaruSitumoxn h3{
+  font-size: 15px;
+  line-height: 40px;
+  border: 1px solid #E5E5E5;
+  display: block;
+  margin-bottom: 1%;
+  width: 95%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 2%;
+  position: relative;
+}
+.YokuaruSitumoxn h3::before{
+  content: "?";
+}
+.YokuaruSitumoxn h3::after{
+  content: "";
+  width: 7px;
+  height: 7px;
+  border-left: 5px solid #E5E5E5;
+  border-top: 5px solid #E5E5E5;
+  display: inline-block;
+  display: inline-block;
+  position: absolute;
+  top: 45%;
+  right: 4%;
+  transform: rotate(-135deg);
+}
+.YokuaruSitumoxn h3.open::after{
+  content: "";
+  width: 7px;
+  height: 7px;
+  border-left: 5px solid #E5E5E5;
+  border-top: 5px solid #E5E5E5;
+  display: inline-block;
+  position: absolute;
+  top: 45%;
+  right: 4%;
+  transform: rotate(45deg);
+}
+.YokuaruSitumoxn p{
+  font-size: 12px;
+  line-height: 19px;
+  text-align: left;
+  width: 93%;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 2%;
+  padding-bottom: 3%;
+  border-bottom: 1px solid #E5E5E5;
+  margin-bottom: 0.5%;
+  display: none;
+}
+.YokuaruSitumoxn h3:hover{
+  text-decoration: underline;
+  transition-duration: 0.3s;
+}
+.YokuaruSitumoxn{
+  width: 100%;
+  margin-bottom: 6%;
+}
+#SiryouSeikhyuuForm input{
+  font-size: 14px;
+  line-height: 22px;
+  border-radius: 4px;
+  border: none;
+  display: block;
+  width: 95%;
+  height: 57px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 3%;
+}
+#SiryouSeikhyuuForm textarea{
+  font-size: 14px;
+  line-height: 22px;
+  border-radius: 4px;
+  border: none;
+  display: block;
+  width: 95%;
+  height: 106px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.Submit{
+  font-size: 23px;
+  line-height: 37px;
+  color: white;
+  background-color: #DA6B64;
+  display: block;
+  width: 95%;
+  height: 55px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  margin-bottom: 6%;
+  border-radius: 65px !important;
+}
+.SiryouSeikhyuuForm ::placeholder{
+  padding-left: 2%;
+}
+.jukouNR{
+  font-size: 18px;
+  line-height: 40px;
+  margin-top: 5%;
+}
+.sumahoGexnteiFlex{
+  border: 1px solid #FDF5E0;
+  background-color: #FDF5E0;
+  width: 95%;
+  height: 58px;
+  position: relative;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 1%;
+  position: relative;
+}
+.sumahoGexnteiFlex{
+  display: flex;
+}
+.sumahoGexntei h3{
+  font-size: 15px;
+  line-height: 17px;
+  display: inline-block;
+  position: relative;
+  text-align: left;
+  top: 0;
+  bottom: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 2%;
+}
+.sumahoGexntei img {
+  width: 36px;
+  height: auto;
+  display: inline-block;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 2%;
+}
+.sumahoGexnteiFlex::after{
+  content: "";
+  width: 7px;
+  height: 7px;
+  border-top: 4px solid #000000;
+  border-left: 4px solid #000000;
+  display: inline-block;
+  transform: rotate(-135deg);
+  position: absolute;
+  right: 2%;
+  top: 0;
+  bottom: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.sumahogexnteiFlex.open::after{
+  content: "";
+  width: 7px;
+  height: 7px;
+  border-top: 4px solid #000000;
+  border-left: 4px solid #000000;
+  display: inline-block;
+  transform: rotate(45deg);
+  position: absolute;
+  right: 2%;
+  top: 0;
+  bottom: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.jukounoKaitou{
+  padding-top: 1%;
+  padding-bottom: 3%;
+  display: block;
+  width: 95%;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #FDF5E0;
+  margin-top: -1%;
+  margin-bottom: 1%;
+  display: none;
+}
+.jukounoKaitou p{
+  text-align: left;
+  font-size: 12px;
+  line-height: 19px;
+  margin-right: 2%;
+  margin-left: 2%;
+}
+
+.JKKbold{
+  font-size: 12px;
+  line-height: 19px;
+  font-weight: bold;
+}
+.sumahoGexnteiFlex h3:hover{
+  text-decoration: underline;
+  transition: 0.3s;
+}

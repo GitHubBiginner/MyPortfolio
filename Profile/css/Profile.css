@@ -1,0 +1,453 @@
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+
+html, body, div, span, ob
+ect, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/*マイプロフィール*/
+
+/*共通部分*/
+body{
+    font-family: "游ゴシック", "ヒラギノ丸ゴ ProN", sans-serif;
+    
+}
+/*pの指定*/
+body p{
+    font-family: "Source Sans Pro";
+}
+/*h2の指定*/
+body h2{
+    font-family: serif;
+    font-family: 游ゴシック体, "Yu Gothic", YuGothic, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, "ＭＳ Ｐゴシック", Osaka, sans-serif;
+    text-align: center;
+    color: #444444;
+    font-weight: normal;
+    font-style: normal;
+}
+/*h3の指定*/
+body h3{
+    font-family: 游ゴシック体, "Yu Gothic", YuGothic, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, "ＭＳ Ｐゴシック", Osaka, sans-serif;
+}
+/*プロフィール*/
+.Profileh3{
+    color: #444444;
+    font-weight: 100;
+}
+
+/*自分の画像*/
+.MyImg{
+  border-radius: 50%;
+}
+
+/*保有資格*/
+.HoyuuSikaku h3{
+    color: #444444;
+    font-weight: 100;
+}
+/*発達障害*/
+.DisabilityWrapper h3{
+    color: #444444;
+    font-weight: 100;
+}
+/*強みと弱み*/
+.TuyomiYowamiWrapper h3{
+    color: #444444;
+    font-weight: 100;
+}
+
+/*MyHistory*/
+.MyHistoryWrapper{
+    width: 100%;
+}
+.MyHistoryContent h3, .MyHistoryRight h3{
+    text-align: center;
+    color: #444444;
+    font-weight: 100;
+}
+.MyHistoryContent h4,  .MyHistoryRight h4{
+    text-align: center;
+    color: black;
+    font-family: -apple-system, "system-ui", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.MyHistoryContent{
+    background-color: #f8f8f8;
+    border: solid 1px #f8f8f8;
+    border-radius: 50%;
+}
+.MyHistoryRight{
+    background-color: #f8f8f8;
+    border: solid 1px #f8f8f8;
+    border-radius: 50%;
+}
+.MyHistoryContentInner{
+   width: 88%;
+   display: block;
+   margin-right: auto;
+   margin-left: auto;
+}
+
+/*プログラミングスキル*/
+.ProgramSkillContent h3{
+    text-align: center;
+    color: #444444;
+    font-weight: 100;
+}
+.ProgramSkillContent h4{
+    text-align: center;
+    color: black;
+    font-family: -apple-system, "system-ui", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.ProgramFlex{
+    display: flex;
+    justify-content: space-evenly;
+}
+/*プログラミングヒストリー*/
+.ProgramSkillHistoryInner{
+    background-color: #f8f8f8;
+    border: solid 1px #f8f8f8;
+    border-radius: 50%;
+}
+.ProgramSkillHistoryInnerRight{
+    background-color: #f8f8f8;
+    border: solid 1px #f8f8f8;
+    border-radius: 50%;
+}
+.ProgramSkillHistoryContent{
+    width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.PSHSyousai{
+  text-align: center;
+}
+
+/*大学生活*/
+.CollegeContentFlex h4{
+    color: black;
+    font-family: -apple-system, "system-ui", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.SGUSoftTennis a:hover{
+    opacity: 0.5;
+    text-decoration: underline;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.MyFavoriteContent p{
+  text-align: left !important;
+}
+
+/*ラスト*/
+.Last a{
+  text-align: center;
+  color: gray;
+  text-decoration: none;
+}
+.Last a:hover{
+  opacity: 0.5;
+  text-decoration: underline;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+/*フッター*/
+footer{
+    width: 100%;
+    height: auto;
+    box-shadow: 0px -10px 10px -15px rgba(0,0,0,0.4);
+}
+.CopyRight{
+    color: #888888;
+    font-family: -apple-system, "system-ui", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    text-align: center;
+}
+
+
+/*ヘッダーのナビ設定*/
+/* 調整用スタイル */
+
+a {
+    text-decoration: none;
+  }
+  
+  header ul li {
+    list-style: none;
+  }
+  
+  
+  /* ヘッダー */
+  
+  .nav-items__item a{
+    font-family: 游ゴシック体, "Yu Gothic", YuGothic, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, "ＭＳ Ｐゴシック", Osaka, sans-serif !important;
+    text-align: center;
+    color: #444444 !important;
+    font-weight: normal;
+    font-style: normal;
+    font-weight: bold;
+  }
+  
+  .nav-items__item a:hover{
+  opacity: 0.5;
+  text-decoration: underline;
+  transition: 0.3s;
+  cursor: pointer;
+  }
+  
+  .header {
+    background-color: white;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    box-shadow: 0px 10px 10px -13px rgba(0,0,0,0.4);
+  }
+  
+  .header__inner {
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: inherit;
+    position: relative;
+  }
+  
+  
+  /* ヘッダーのロゴ部分 */
+  .header__title {
+    width: 80px;
+  }
+  
+  .header__title {
+    width: 250px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  @media screen and (max-width: 600px) {
+    .header__title {
+      width: 180px;
+    }
+    .nav-items__item a {
+        color: black;
+        width: 100%;
+        display: block;
+        text-align: center;
+        font-size: 13px;
+        line-height: 15px;
+        margin-bottom: 18px;
+      }
+  }
+  
+  .header__title img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    object-fit: contain;
+    background-size: cover;
+  }
+  
+  /* ヘッダーのナビ部分 */
+  
+  .header__nav {
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    transform: translateX(100%);
+    background-color: #fff;
+    transition: ease .4s;
+  }
+  
+  
+  .nav-items {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0;
+  }
+  
+  /* ナビのリンク */
+  @media screen and (min-width: 600px) {
+    .nav-items__item a {
+        color: black;
+        width: 100%;
+        display: block;
+        text-align: center;
+        font-size: 25px;
+        margin-bottom: 24px;
+      }
+  }
+  
+  .nav-items__item:last-child a {
+    margin-bottom: 0;
+  }
+  
+  
+  /* ハンバーガーメニュー */
+  
+  .header__hamburger {
+    width: 48px;
+    height: 100%;
+  
+  }
+  
+  .hamburger {
+    background-color: transparent;
+    border-color: transparent;
+    z-index: 9999;
+  }
+  
+  
+  /* ハンバーガーメニューの線 */
+  .hamburger span {
+    width: 100%;
+    height: 1px;
+    background-color: #000;
+    position: relative;
+    transition: ease .4s;
+    display: block;
+  }
+  
+  .hamburger span:nth-child(1) {
+    top: 0;
+  }
+  
+  .hamburger span:nth-child(2) {
+    margin: 8px 0;
+  }
+  
+  .hamburger span:nth-child(3) {
+    top: 0;
+  }
+  
+  
+  /* ハンバーガーメニュークリック後のスタイル */
+  .header__nav.active {
+    transform: translateX(0);
+  }
+  
+  .hamburger.active span:nth-child(1) {
+    top: 5px;
+    transform: rotate(45deg);
+  }
+  
+  .hamburger.active span:nth-child(2) {
+    opacity: 0;
+  
+  }
+  
+  .hamburger.active span:nth-child(3) {
+    top: -13px;
+    transform: rotate(-45deg);
+  }
+
+
+  
+  /*高さ固定の設定*/
+  .AboutMeWrapper{
+      padding-top: 80px;
+  }
